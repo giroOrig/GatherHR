@@ -461,10 +461,12 @@ background: #fff url(../img/intro-bg.jpg) right top no-repeat;
 }
 
 #hero .intro-info h2 {
-  color: #3c3c3b;
-  margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #hero .intro-info h2 span {
