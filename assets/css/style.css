@@ -458,6 +458,7 @@ background: #fff url(../img/intro-bg.jpg) right top no-repeat;
     text-align: center;
     padding-top: 40px;
   }
+  .businessHero{font-size: 9vw;}
 }
 
 #hero .intro-info h2 {
@@ -616,6 +617,11 @@ section {
   content: '';
   background-color: #ebf1fa;
   transition: .5s;
+}
+.aboutUs{line-height: 3.5vw}
+@media (max-width: 767px) {
+  .aboutUs{line-height: 7vw}
+  span{font-size: 5vw;}
 }
 
 /* Services Section
