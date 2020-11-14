@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #eddd00;
   transition: 0.5s;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background-color: rgba(0,0,0,0.5);
   color: #fff;
   width: 44px;
   height: 44px;
@@ -620,7 +620,7 @@ section {
 }
 .aboutUs{line-height: 3.5vw}
 @media (max-width: 767px) {
-  .aboutUs{line-height: 7vw}
+  .aboutUs{line-height: 7vw;text-align: justify;font-size: 20px;}
   span{font-size: 5vw;}
 }
 
@@ -681,6 +681,12 @@ section {
   margin-bottom: 0;
   text-align: left;
 }
+@media (max-width: 767px){#services .description {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+}}
 
 /* Why Us Section
 --------------------------------*/
