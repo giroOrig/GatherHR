@@ -776,7 +776,7 @@ section {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 26px;
+  padding: 8px 26px 15px;
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
@@ -785,14 +785,14 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #eddd00;
+  border: 3px solid #eddd00;
 }
 
 /* Features Section
 --------------------------------*/
 #features {
-  padding: 80px 0;
+  padding: 0px 0;
 }
 
 #features h4 {
@@ -1673,3 +1673,23 @@ section {
   color: #0a98c0;
 }
 .section-bg--modify{background-color: #fff!important;}
+@media(max-width: 767px){.description--modify{text-align: justify;}}
+@media(min-width: 1024px){.description--modify{text-align: center;}}
+@media(min-width: 1024px){.mb_parallax_container {
+  height: 70vh;
+  width: 100vw;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url(../img/parallax1.jpg);
+}}
+@media(max-width: 767px){.mb_parallax_container {
+  height: 170vh;
+  width: 100vw;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url(../img/parallax1.jpg);
+}}
