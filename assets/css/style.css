@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 100px;
+  max-height: 130px;
 }
 
 @media (max-width: 992px) {
@@ -218,6 +218,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
+  top: -5px;
 }
 
 .main-nav > ul > li {
@@ -518,6 +520,7 @@ section {
   font-weight: 700;
   position: relative;
   font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
 }
 
 .section-header p {
@@ -1084,7 +1087,7 @@ section {
 #clients img {
   max-width: 80%;
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.1s;
   padding: 15px 0;
 }
 
