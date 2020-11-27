@@ -1696,3 +1696,43 @@ section {
   background-repeat: no-repeat;
     background-image: url(../img/parallax1.jpg);
 }}
+.btn-group-sm .btn-fab{
+  position: fixed !important;
+  right: 10px;
+}
+.btn-group .btn-fab{
+  position: fixed !important;
+  right: 20px;
+}
+#main{
+  bottom: 20px;
+}
+#mail{
+  bottom: 80px
+}
+#sms{
+  bottom: 140px
+}
+#autre{
+  bottom: 190px
+}
+.btn-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-warning {
+    color: #212529;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-warning:hover {
+    color: #212529;
+    background-color: transparent;
+    border-color: transparent;
+}
