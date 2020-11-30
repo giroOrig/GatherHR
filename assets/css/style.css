@@ -1712,10 +1712,10 @@ section {
 }
 #sms{
   bottom: 140px;
-  z-index: 999999999999;
+  z-index: 99999999999999999;
 }
 #autre{
-  bottom: 190px
+  bottom: 190px;
   z-index:999999999999999;
 }
 .btn-info {
