@@ -1708,13 +1708,15 @@ section {
   bottom: 20px;
 }
 #mail{
-  bottom: 80px
+  bottom: 80px;
 }
 #sms{
-  bottom: 140px
+  bottom: 140px;
+  z-index: 999999999999;
 }
 #autre{
   bottom: 190px
+  z-index:999999999999999;
 }
 .btn-info {
     color: #fff;
