@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #0a98c0;
+  color: blueviolet;
   outline: none;
   text-decoration: none;
 }
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
-  color: #eddd00;
+  color: blueviolet;
   text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: blueviolet;
   text-decoration: none;
 }
 
@@ -428,6 +428,14 @@ background: #fff url(../img/intro-bg.jpg) right top no-repeat;
     height: auto;
     padding: 100px 0 60px 0;
   }
+  #hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
+    position: relative;
+    top: 59px;
+}
+#hero .intro-info h2 {
+    position: relative;
+    top: 100px;
+}
   #hero .container {
     height: auto !important;
   }
@@ -1223,7 +1231,7 @@ section {
 }
 
 #pricing .card .btn:hover {
-  background: #0a98c0;
+  background: blueviolet;
 }
 
 /* Frequently Asked Questions Section
@@ -1550,7 +1558,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0a98c0;
+  background: blueviolet;
 }
 
 #footer .php-email-form .validate {
@@ -1632,7 +1640,7 @@ section {
 }
 
 #footer .php-email-form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: blueviolet;
   cursor: pointer;
 }
 
@@ -1669,11 +1677,11 @@ section {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: blueviolet;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: blueviolet;
 }
 .section-bg--modify{background-color: #fff!important;}
 @media(max-width: 767px){.description--modify{text-align: justify;}}
@@ -1688,7 +1696,7 @@ section {
     background-image: url(../img/parallax1.jpg);
 }}
 @media(max-width: 767px){.mb_parallax_container {
-  height: 170vh;
+  height: 185vh;
   width: 100vw;
   padding-top: 20vh;
   background-attachment: fixed;
