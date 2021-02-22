@@ -430,7 +430,9 @@ background: #fff url(../img/intro-bg.jpg) right top no-repeat;
   }
   #hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
     position: relative;
-    top: 59px;
+    top: 72px;
+    height: 50px;
+    margin: 5px;
 }
 #hero .intro-info h2 {
     position: relative;
@@ -1745,4 +1747,14 @@ section {
     color: #212529;
     background-color: transparent;
     border-color: transparent;
+}
+@media (min-width: 700px) and (orientation: landscape){
+  #hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #fff url(../img/intro-bg.jpg) right top no-repeat;
+    background-size: contain;
+    top: 68px;
+}
 }
